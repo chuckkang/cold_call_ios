@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		895BE2871FAA2E5600503A1D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895BE2861FAA2E5600503A1D /* AppDelegate.swift */; };
+		895BE2891FAA2E5600503A1D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895BE2881FAA2E5600503A1D /* ViewController.swift */; };
+		895BE28C1FAA2E5600503A1D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 895BE28A1FAA2E5600503A1D /* Main.storyboard */; };
+		895BE28E1FAA2E5600503A1D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 895BE28D1FAA2E5600503A1D /* Assets.xcassets */; };
+		895BE2911FAA2E5600503A1D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 895BE28F1FAA2E5600503A1D /* LaunchScreen.storyboard */; };
+		895BE29C1FAA2E5600503A1D /* ColdCallTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895BE29B1FAA2E5600503A1D /* ColdCallTests.swift */; };
+		895BE2A71FAA2E5600503A1D /* ColdCallUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 895BE2A61FAA2E5600503A1D /* ColdCallUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		895BE2981FAA2E5600503A1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 895BE27B1FAA2E5600503A1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 895BE2821FAA2E5600503A1D;
+			remoteInfo = ColdCall;
+		};
+		895BE2A31FAA2E5600503A1D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 895BE27B1FAA2E5600503A1D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 895BE2821FAA2E5600503A1D;
+			remoteInfo = ColdCall;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		895BE2831FAA2E5600503A1D /* ColdCall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ColdCall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		895BE2861FAA2E5600503A1D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		895BE2881FAA2E5600503A1D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		895BE28B1FAA2E5600503A1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		895BE28D1FAA2E5600503A1D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		895BE2901FAA2E5600503A1D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		895BE2921FAA2E5600503A1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		895BE2971FAA2E5600503A1D /* ColdCallTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColdCallTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		895BE29B1FAA2E5600503A1D /* ColdCallTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColdCallTests.swift; sourceTree = "<group>"; };
+		895BE29D1FAA2E5600503A1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		895BE2A21FAA2E5600503A1D /* ColdCallUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColdCallUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		895BE2A61FAA2E5600503A1D /* ColdCallUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColdCallUITests.swift; sourceTree = "<group>"; };
+		895BE2A81FAA2E5600503A1D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		895BE2801FAA2E5600503A1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		895BE2941FAA2E5600503A1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		895BE29F1FAA2E5600503A1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		895BE27A1FAA2E5600503A1D = {
+			isa = PBXGroup;
+			children = (
+				895BE2851FAA2E5600503A1D /* ColdCall */,
+				895BE29A1FAA2E5600503A1D /* ColdCallTests */,
+				895BE2A51FAA2E5600503A1D /* ColdCallUITests */,
+				895BE2841FAA2E5600503A1D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		895BE2841FAA2E5600503A1D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				895BE2831FAA2E5600503A1D /* ColdCall.app */,
+				895BE2971FAA2E5600503A1D /* ColdCallTests.xctest */,
+				895BE2A21FAA2E5600503A1D /* ColdCallUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		895BE2851FAA2E5600503A1D /* ColdCall */ = {
+			isa = PBXGroup;
+			children = (
+				895BE2861FAA2E5600503A1D /* AppDelegate.swift */,
+				895BE2881FAA2E5600503A1D /* ViewController.swift */,
+				895BE28A1FAA2E5600503A1D /* Main.storyboard */,
+				895BE28D1FAA2E5600503A1D /* Assets.xcassets */,
+				895BE28F1FAA2E5600503A1D /* LaunchScreen.storyboard */,
+				895BE2921FAA2E5600503A1D /* Info.plist */,
+			);
+			path = ColdCall;
+			sourceTree = "<group>";
+		};
+		895BE29A1FAA2E5600503A1D /* ColdCallTests */ = {
+			isa = PBXGroup;
+			children = (
+				895BE29B1FAA2E5600503A1D /* ColdCallTests.swift */,
+				895BE29D1FAA2E5600503A1D /* Info.plist */,
+			);
+			path = ColdCallTests;
+			sourceTree = "<group>";
+		};
+		895BE2A51FAA2E5600503A1D /* ColdCallUITests */ = {
+			isa = PBXGroup;
+			children = (
+				895BE2A61FAA2E5600503A1D /* ColdCallUITests.swift */,
+				895BE2A81FAA2E5600503A1D /* Info.plist */,
+			);
+			path = ColdCallUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		895BE2821FAA2E5600503A1D /* ColdCall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 895BE2AB1FAA2E5600503A1D /* Build configuration list for PBXNativeTarget "ColdCall" */;
+			buildPhases = (
+				895BE27F1FAA2E5600503A1D /* Sources */,
+				895BE2801FAA2E5600503A1D /* Frameworks */,
+				895BE2811FAA2E5600503A1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ColdCall;
+			productName = ColdCall;
+			productReference = 895BE2831FAA2E5600503A1D /* ColdCall.app */;
+			productType = "com.apple.product-type.application";
+		};
+		895BE2961FAA2E5600503A1D /* ColdCallTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 895BE2AE1FAA2E5600503A1D /* Build configuration list for PBXNativeTarget "ColdCallTests" */;
+			buildPhases = (
+				895BE2931FAA2E5600503A1D /* Sources */,
+				895BE2941FAA2E5600503A1D /* Frameworks */,
+				895BE2951FAA2E5600503A1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				895BE2991FAA2E5600503A1D /* PBXTargetDependency */,
+			);
+			name = ColdCallTests;
+			productName = ColdCallTests;
+			productReference = 895BE2971FAA2E5600503A1D /* ColdCallTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		895BE2A11FAA2E5600503A1D /* ColdCallUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 895BE2B11FAA2E5600503A1D /* Build configuration list for PBXNativeTarget "ColdCallUITests" */;
+			buildPhases = (
+				895BE29E1FAA2E5600503A1D /* Sources */,
+				895BE29F1FAA2E5600503A1D /* Frameworks */,
+				895BE2A01FAA2E5600503A1D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				895BE2A41FAA2E5600503A1D /* PBXTargetDependency */,
+			);
+			name = ColdCallUITests;
+			productName = ColdCallUITests;
+			productReference = 895BE2A21FAA2E5600503A1D /* ColdCallUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		895BE27B1FAA2E5600503A1D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Chucks Mac Book";
+				TargetAttributes = {
+					895BE2821FAA2E5600503A1D = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					895BE2961FAA2E5600503A1D = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 895BE2821FAA2E5600503A1D;
+					};
+					895BE2A11FAA2E5600503A1D = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 895BE2821FAA2E5600503A1D;
+					};
+				};
+			};
+			buildConfigurationList = 895BE27E1FAA2E5600503A1D /* Build configuration list for PBXProject "ColdCall" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 895BE27A1FAA2E5600503A1D;
+			productRefGroup = 895BE2841FAA2E5600503A1D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				895BE2821FAA2E5600503A1D /* ColdCall */,
+				895BE2961FAA2E5600503A1D /* ColdCallTests */,
+				895BE2A11FAA2E5600503A1D /* ColdCallUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		895BE2811FAA2E5600503A1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				895BE2911FAA2E5600503A1D /* LaunchScreen.storyboard in Resources */,
+				895BE28E1FAA2E5600503A1D /* Assets.xcassets in Resources */,
+				895BE28C1FAA2E5600503A1D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		895BE2951FAA2E5600503A1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		895BE2A01FAA2E5600503A1D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		895BE27F1FAA2E5600503A1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				895BE2891FAA2E5600503A1D /* ViewController.swift in Sources */,
+				895BE2871FAA2E5600503A1D /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		895BE2931FAA2E5600503A1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				895BE29C1FAA2E5600503A1D /* ColdCallTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		895BE29E1FAA2E5600503A1D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				895BE2A71FAA2E5600503A1D /* ColdCallUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		895BE2991FAA2E5600503A1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 895BE2821FAA2E5600503A1D /* ColdCall */;
+			targetProxy = 895BE2981FAA2E5600503A1D /* PBXContainerItemProxy */;
+		};
+		895BE2A41FAA2E5600503A1D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 895BE2821FAA2E5600503A1D /* ColdCall */;
+			targetProxy = 895BE2A31FAA2E5600503A1D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		895BE28A1FAA2E5600503A1D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				895BE28B1FAA2E5600503A1D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		895BE28F1FAA2E5600503A1D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				895BE2901FAA2E5600503A1D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		895BE2A91FAA2E5600503A1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		895BE2AA1FAA2E5600503A1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		895BE2AC1FAA2E5600503A1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ColdCall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "coding-dojo.ColdCall";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		895BE2AD1FAA2E5600503A1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ColdCall/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "coding-dojo.ColdCall";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		895BE2AF1FAA2E5600503A1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ColdCallTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "coding-dojo.ColdCallTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColdCall.app/ColdCall";
+			};
+			name = Debug;
+		};
+		895BE2B01FAA2E5600503A1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ColdCallTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "coding-dojo.ColdCallTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ColdCall.app/ColdCall";
+			};
+			name = Release;
+		};
+		895BE2B21FAA2E5600503A1D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ColdCallUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "coding-dojo.ColdCallUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ColdCall;
+			};
+			name = Debug;
+		};
+		895BE2B31FAA2E5600503A1D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = ColdCallUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "coding-dojo.ColdCallUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ColdCall;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		895BE27E1FAA2E5600503A1D /* Build configuration list for PBXProject "ColdCall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				895BE2A91FAA2E5600503A1D /* Debug */,
+				895BE2AA1FAA2E5600503A1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		895BE2AB1FAA2E5600503A1D /* Build configuration list for PBXNativeTarget "ColdCall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				895BE2AC1FAA2E5600503A1D /* Debug */,
+				895BE2AD1FAA2E5600503A1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		895BE2AE1FAA2E5600503A1D /* Build configuration list for PBXNativeTarget "ColdCallTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				895BE2AF1FAA2E5600503A1D /* Debug */,
+				895BE2B01FAA2E5600503A1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		895BE2B11FAA2E5600503A1D /* Build configuration list for PBXNativeTarget "ColdCallUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				895BE2B21FAA2E5600503A1D /* Debug */,
+				895BE2B31FAA2E5600503A1D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 895BE27B1FAA2E5600503A1D /* Project object */;
+}
