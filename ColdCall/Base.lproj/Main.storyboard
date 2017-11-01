@@ -39,19 +39,28 @@
                                     <action selector="NamesPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="wMq-4V-mff"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jP1-j8-osu">
+                                <rect key="frame" x="70" y="167" width="245" height="121"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="jP1-j8-osu" firstAttribute="top" secondItem="WCx-CW-Hl0" secondAttribute="bottom" constant="12" id="3gj-Aq-o0e"/>
                             <constraint firstItem="KYg-VV-LJc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="TsH-FZ-Gsd"/>
                             <constraint firstItem="WCx-CW-Hl0" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="100" id="gG4-ih-4Ba"/>
                             <constraint firstItem="KYg-VV-LJc" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pMb-OA-OMV"/>
                             <constraint firstItem="KYg-VV-LJc" firstAttribute="top" secondItem="WCx-CW-Hl0" secondAttribute="bottom" constant="250" id="rzc-5j-TvC"/>
                             <constraint firstItem="WCx-CW-Hl0" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="uaV-cc-AuT"/>
+                            <constraint firstItem="jP1-j8-osu" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="wUp-Cf-CMX"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
                     <connections>
                         <outlet property="NamesLabel" destination="WCx-CW-Hl0" id="loT-aT-XRN"/>
+                        <outlet property="RandomNum" destination="jP1-j8-osu" id="D3J-UU-ocM"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>

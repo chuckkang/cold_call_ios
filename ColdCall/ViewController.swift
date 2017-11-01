@@ -12,9 +12,11 @@ class ViewController: UIViewController {
 
 
     @IBOutlet weak var NamesLabel: UILabel!
+    @IBOutlet weak var RandomNum: UILabel!
     
     var arrNames: [String] = ["Chuck", "Pat", "Rodrigo", "Chris", "Joe", "Bob" ]
     var currentName = 0
+    
     
     override func viewDidLoad(){
         super.viewDidLoad()
@@ -29,6 +31,26 @@ class ViewController: UIViewController {
         }
         
        NamesLabel.text = arrNames[currentName]
+        
+        let rnd = getRandom()
+        RandomNum.text = String(rnd)
+        RandomNum.textColor = getColor(num: rnd)
+    }
+    
+    func getRandom()->Int{
+        return Int(arc4random_uniform(UInt32(4)))+1
+    }
+    
+    func getColor(num: Int)->UIColor{
+        var strColor: UIColor = UIColor.black
+        if num == 1 || num == 2 {
+            strColor = UIColor.red
+        } else if num == 3 || num == 4 {
+            strColor = UIColor.blue
+        } else if num == 5 {
+            strColor = UIColor.green
+        }
+        return strColor
     }
 
     override func didReceiveMemoryWarning() {
